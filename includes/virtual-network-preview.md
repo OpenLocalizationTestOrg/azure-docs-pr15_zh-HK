@@ -1,0 +1,1 @@
+>[AZURE.WARNING] 此功能当前预览版本中，可能不具有相同级别的可用性和可靠性，因为一般情况下是可用性的功能释放。 该功能不支持，可能具有约束功能，可能无法在所有的[Azure 的位置](https://azure.microsoft.com/regions/)。 可用性和状态的此功能的最新通知，请检查[Azure 虚拟网络更新](https://azure.microsoft.com/updates/?product=virtual-network)页面。

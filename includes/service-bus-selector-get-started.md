@@ -1,0 +1,10 @@
+> [AZURE。选择器列表 (发件人 |接收器）]
+- [(C# |C#)](../articles/event-hubs/event-hubs-csharp-ephcs-getstarted.md)
+- [(C# |Java)](../articles/event-hubs/event-hubs-csharp-ephjava-getstarted.md)
+- [(C# |Apache 风暴）](../articles/event-hubs/event-hubs-csharp-storm-getstarted.md)
+- [(Java |Java)](../articles/event-hubs/event-hubs-java-ephjava-getstarted.md)
+- [(Java |C#)](../articles/event-hubs/event-hubs-java-ephcs-getstarted.md)
+- [(Java |Apache 风暴）](../articles/event-hubs/event-hubs-java-storm-getstarted.md)
+- [(C |C#)](../articles/event-hubs/event-hubs-c-ephcs-getstarted.md)
+- [(C |Java)](../articles/event-hubs/event-hubs-c-ephjava-getstarted.md)
+- [(C |Apache 风暴）](../articles/event-hubs/event-hubs-c-storm-getstarted.md)

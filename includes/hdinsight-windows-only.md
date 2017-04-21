@@ -1,0 +1,1 @@
+> [AZURE.NOTE] 此文档中的信息仅适用于基于 Windows HDInsight 群集。

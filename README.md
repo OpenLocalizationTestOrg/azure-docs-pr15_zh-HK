@@ -1,122 +1,121 @@
-# Azure Technical Documentation Contributor Guide
+# <a name="azure-technical-documentation-contributor-guide"></a>Azure 的技术文档参与者指南
 
-You've found the GitHub repository that houses the source for the technical documentation that is published to the Azure Documentation Center at [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation).
+您发现房屋将被发布到 Azure 文档中心的[http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation)的技术文档的源的 GitHub 存储库。
 
-This repository also contains guidance to help you contribute to our technical documentation.  For a list of the articles in the contributors' guide, see [the index](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).
+该存储库还包含指导以帮助您参与我们的技术文档。  贡献者指南 》 中的文章的列表，请参见[索引](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md)。
 
-## Contribute to Azure documentation
+## <a name="contribute-to-azure-documentation"></a>参与到 Azure 的文档
 
-Thank you for your interest in Azure documentation!
+感谢您有兴趣 Azure 文档 ！
 
-* [Ways to contribute](#ways-to-contribute)
-* [Code of conduct](#code-of-conduct)
-* [About your contributions to Azure content](#about-your-contributions-to-azure-content)
-* [Repository organization](#repository-organization)
-* [Use GitHub, Git, and this repository](#use-github-git-and-this-repository)
-* [How to use markdown to format your topic](#how-to-use-markdown-to-format-your-topic)
-* [Feedback, comments, and support](./contributor-guide/feedback-and-comments.md)
-* [More resources](#more-resources)
-* [Index of all contributors' guide articles](./contributor-guide/contributor-guide-index.md) (opens new page)
+* [参与的方法](#ways-to-contribute)
+* [行为准则导论](#code-of-conduct)
+* [关于 Azure 内容做出的贡献](#about-your-contributions-to-azure-content)
+* [存储库中组织](#repository-organization)
+* [使用 GitHub Git，以及此存储库](#use-github-git-and-this-repository)
+* [如何使用减价格式化您的主题](#how-to-use-markdown-to-format-your-topic)
+* [反馈、 注释和支持](./contributor-guide/feedback-and-comments.md)
+* [更多的资源](#more-resources)
+* [所有贡献者指南文章索引](./contributor-guide/contributor-guide-index.md)（打开新页面）
 
-## Ways to contribute 
+## <a name="ways-to-contribute"></a>参与的方法 
 
-You can contribute to [Azure documentation](http://azure.microsoft.com/documentation/) in a few different ways:
+可以在多种不同的方式为[Azure 文档](http://azure.microsoft.com/documentation/)做出贡献︰
 
-* Contribute to a [forum discussion](http://social.msdn.microsoft.com/Forums/windowsazure/home).
-* Submit Disqus comments at the bottom of articles.
-* You can easily contribute to technical articles in the GitHub user interface. Either find the article in this repository, or visit the article on [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation) and click the link in the article that goes to the GitHub source for the article.
-* If you are making substantial changes to an existing article, adding or changing images, or contributing a new article, you need to fork this repository, install Git Bash, Markdown Pad, and learn some git commands.
+* 参与[论坛讨论](http://social.msdn.microsoft.com/Forums/windowsazure/home)。
+* 提交文章底部 Disqus 评论。
+* 您可以轻松地到 GitHub 用户界面中的技术文章做出贡献。 请在此存储库中查找文章或者[http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation) ，请访问文章并单击转到文章的 GitHub 来源的文章中的链接。
+* 若要对现有项目进行大量更改，添加或更改图像，或造成新的文章，您需要分叉此资料库、 安装 Git 大扫除，减价板和学习某些 git 命令。
 
-##Code of conduct
+##<a name="code-of-conduct"></a>行为准则导论
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+此项目采用了[Microsoft 打开源的行为准则](https://opensource.microsoft.com/codeofconduct/)。 有关更多信息，请参见[执行常见问题解答代码](https://opensource.microsoft.com/codeofconduct/faq/)或联系人[opencode@microsoft.com](mailto:opencode@microsoft.com)与任何其他问题或意见。
 
-##About your contributions to Azure content
+##<a name="about-your-contributions-to-azure-content"></a>关于 Azure 内容做出的贡献
 
-###Minor corrections
+###<a name="minor-corrections"></a>次要更正
 
-Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the [Azure Website Terms of Use (ToU)](http://azure.microsoft.com/support/legal/website-terms-of-use/).
+[Azure 网站的使用条款 (ToU)](http://azure.microsoft.com/support/legal/website-terms-of-use/)覆盖次要更正或您提交此 repo 中的文档和代码示例的说明。
 
 
-###Larger submissions
+###<a name="larger-submissions"></a>更大的提交
 
-If you submit a pull request with new or significant changes to documentation and code examples, we'll send a comment in GitHub asking you to submit an online Contribution License Agreement (CLA) if you are in one of these groups:
+如果提交的新的或重大更改文档和代码示例拉请求，我们会向发送注释在 GitHub 要求您提交联机发布内容的许可证协议 (CLA)，如果您在两个组︰
 
-* Members of the Microsoft Open Technologies group.
-* Contributors who don't work for Microsoft.
+* 打开的 Microsoft 技术组的成员。
+* 不适用于 Microsoft 的参与者。
 
-We need you to complete the online form before we can accept your pull request.
+我们需要您填写联机表单之前我们可以接受您请求的请求。
 
-Full details are available at [http://azure.github.io/guidelines/#cla](http://azure.github.io/guidelines/#cla).
+完整细节，请访问[http://azure.github.io/guidelines/#cla](http://azure.github.io/guidelines/#cla)。
 
-## Repository organization
+## <a name="repository-organization"></a>存储库中组织
 
-The content in the azure-content repository follows the organization of documentation on [Azure.Microsoft.com](http://azure.microsoft.com). This repository contains two root folders:
+Azure 内容存储库中的内容跟上[Azure.Microsoft.com](http://azure.microsoft.com)文档的组织结构。 该存储库包含两个根文件夹︰
 
-### \articles
+### <a name="articles"></a>\articles
 
-The *\articles* folder contains the documentation articles formatted as markdown files with an *.md* extension.
+*\Articles*文件夹中包含的格式设置为具有*.md*扩展名的减价文件文档文章。
 
-Articles in the root directory are published to Azure.Microsoft.com in the path *http://azure.microsoft.com/documentation/articles/{article-name-without-md}/*.
+路径中的根目录中的文章发布到 Azure.Microsoft.com *http://azure.microsoft.com/documentation/articles/ {文章-名称-不-md} /*。
 
-* **Article filenames:** See [our file naming guidance](./contributor-guide/file-names-and-locations.md).
+* **项目文件名︰**请参阅[我们的文件命名指南](./contributor-guide/file-names-and-locations.md)。
 
-Articles within their own service folder are published to Azure.Microsoft.com in the path
-*http://azure.microsoft.com/documentation/articles/service-folder/{article-name-without-md}/*
+他们自己服务文件夹中的项目路径中发布到 Azure.Microsoft.com *http://azure.microsoft.com/documentation/articles/service-folder/ {文章-名称-不-md} /*
 
-* **Media subfolders:** The *\articles* folder contains the *\media* folder for root directory article media files, inside which are subfolders with the images for each article.  The service folders contain a separate media folder for the articles within each service folder. The article image folders are named identically to the article file, minus the *.md* file extension.
+* **媒体子文件夹︰***\Articles*文件夹包含根目录文章的媒体文件， *\media*文件夹内的子文件夹使用的图像的每个项目。  服务文件夹包含服务的每个文件夹中的项目的单独的介质文件夹。 文章图像文件夹同名文章文件，没有*.md*文件扩展名。
 
-### \includes
+### <a name="includes"></a>\includes
 
-You can create reusable content sections to be included in one or more articles. See [Custom extensions used in our technical content](./contributor-guide/custom-markdown-extensions.md).
+您可以创建可重用内容的部分包含在一个或多个项目。 请参阅[我们的技术内容中使用的自定义扩展](./contributor-guide/custom-markdown-extensions.md)。
 
-### \markdown templates
+### <a name="markdown-templates"></a>\markdown 的模板
 
-This folder contains our standard markdown template with the basic markdown formatting you need for an article.
+此文件夹包含与基本减价格式所需的一篇文章我们标准的减价的模板。
 
-### \contributor-guide
+### <a name="contributor-guide"></a>\contributor-guide
 
-This folder contains articles that are part of our contributors' guide.  
+此文件夹包含属于我们贡献者指南 》 的文章。  
 
-## Use GitHub, Git, and this repository
+## <a name="use-github-git-and-this-repository"></a>使用 GitHub Git，以及此存储库
 
-For information about how to contribute, how to use the GitHub UI to contribute small changes, and how to fork and clone the repository for more significant contributions, see [Install and set up tools for authoring in GitHub](./contributor-guide/tools-and-setup.md).
+有关如何做出贡献、 如何使用 GitHub UI 贡献很小的更改，以及如何分叉和克隆存储库中的更大的贡献的信息，请参阅[安装和设置在 GitHub 创作工具](./contributor-guide/tools-and-setup.md)。
 
-If you install GitBash and choose to work locally, the steps for creating a new local working branch, making changes, and submitting the changes back to the main branch are listed in [Git commands for creating a new article or updating an existing article](./contributor-guide/git-commands-for-master.md)
+如果您安装 GitBash，并选择本地工作， [Git 命令创建新文章或更新现有项目](./contributor-guide/git-commands-for-master.md)中列出的步骤创建新的本地工作分支，进行更改，提交更改回主分支
 
-### Branches
+### <a name="branches"></a>分支机构
 
-We recommend that you create local working branches that target a specific scope of change. Each branch should be limited to a single concept/article both to streamline work flow and reduce the possibility of merge conflicts.  The following efforts are of the appropriate scope for a new branch:
+我们建议您创建本地更改的特定的作用域为目标的工作分支。 每个分支应限于单一的概念/文章既能够优化工作流程并降低合并冲突的可能性。  以下工作有一个新的分支的适当范围︰
 
-* A new article (and associated images)
-* Spelling and grammar edits on an article.
-* Applying a single formatting change across a large set of articles (e.g. new copyright footer).
+* 新的文章 （和关联的图像）
+* 一篇文章的拼写和语法的编辑。
+* 大量的文章 （如新版权页脚） 跨应用的单个格式设置更改。
 
-## How to use markdown to format your topic
+## <a name="how-to-use-markdown-to-format-your-topic"></a>如何使用减价格式化您的主题
 
-All the articles in this repository use GitHub flavored markdown.  Here's a list of resources.
+此存储库中的所有项目都使用 GitHub flavored 的减价。  这是资源的列表。
 
-- [Markdown basics](https://help.github.com/articles/markdown-basics/)
+- [减价基础知识](https://help.github.com/articles/markdown-basics/)
 
-- [Printable markdown cheatsheet](./contributor-guide/media/documents/markdown-cheatsheet.pdf?raw=true)
+- [可打印减价速查表](./contributor-guide/media/documents/markdown-cheatsheet.pdf?raw=true)
 
-- For our list of markdown editors, see the [tools and setup topic](./contributor-guide/tools-and-setup.md#install-a-markdown-editor).
+- 我们的减价编辑器的列表，请参阅[工具和安装主题](./contributor-guide/tools-and-setup.md#install-a-markdown-editor)。
 
-## Article metadata
+## <a name="article-metadata"></a>文章元数据
 
-Article metadata enables certain functionalities on the azure.microsoft.com web site, such as author attribution, contributor attribution, breadcrumbs, article descriptions, and SEO optimizations as well as reporting Microsoft uses to evaluate the performance of the content. So, the metadata is important! [Here's the guidance for making sure your metadata is done right](./contributor-guide/article-metadata.md).
+文章元数据实现了 azure.microsoft.com 网站上的某些功能，例如作者归属、 参与者归属、 痕迹、 文章描述和 SEO 优化，以及报告 Microsoft 用来评估内容的性能。 因此，元数据是重要的 ！ [下面是用于确保元数据指导得当](./contributor-guide/article-metadata.md)。
 
-### Labels
+### <a name="labels"></a>标签
 
-Automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
+自动的标签分配中提取请求以帮助我们管理纳入请求工作流，并可帮助让您知道这怎么回事在您请求的请求︰
 
-* Contribution License Agreement related
-    * cla-not-required: The change is relatively minor and does not require that you sign a CLA.
-    * cla-required: The scope of the change is relatively large and requires that you sign a CLA.
-    * cla-signed: The contributor signed the CLA, so the pull request can now move forward for review.
-* Pillar labels: Labels such as PnP, Modern Apps, and TDC help categorize the pull requests by the internal organization that needs to review the pull request.
-* Change sent to author: The author has been notified of the pending pull request.
+* 贡献与相关的许可协议
+    * cla 不需要︰ 更改是相对较小，并且不需要您登录 CLA。
+    * cla 要求︰ 更改范围相对较大，需要您登录 CLA。
+    * cla 签名︰ 参与者签名 CLA，这样拉请求现在可以向前移动候审。
+* 支柱标签︰ 标签如 PnP、 新型应用程序和 TDC 帮助分类拉请求需要审阅拉请求的内部组织。
+* 更改发送创作︰ 作者已挂起拉请求的通知。
 
-## More resources
+## <a name="more-resources"></a>更多的资源
 
-See the [index of our contributor's guide](./contributor-guide/contributor-guide-index.md) for all our guidance topics.
+请参阅[我们参与者手册的索引](./contributor-guide/contributor-guide-index.md)的所有我们的指导主题。
