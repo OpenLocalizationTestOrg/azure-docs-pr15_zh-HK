@@ -1,0 +1,1 @@
+> [AZURE.NOTE] 本文对逻辑的应用程序架构版本 2014年-12-01 的预览。 我们很难在工作上的下一个版本将能够方便地集成与逻辑应用程序架构版本 2015年-08-01-预览此连接器。 在此期间，[这里是如何使用此连接器在 2015年-08-01-预览架构版本中逻辑的应用程序](https://blogs.msdn.microsoft.com/logicapps/2016/02/25/accessing-v1-apis-and-biztalk-apis-from-logic-apps/)。 

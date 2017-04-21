@@ -1,0 +1,4 @@
+- [基于角色的访问控制](../articles/active-directory/role-based-access-control-configure.md)
+- [管理使用 Azure Powershell 的访问](../articles/active-directory/role-based-access-control-manage-access-powershell.md)
+- [管理使用 Azure CLI 访问](../articles/active-directory/role-based-access-control-manage-access-azure-cli.md)
+- [RBAC 角色中生成](../articles/active-directory/role-based-access-built-in-roles.md)

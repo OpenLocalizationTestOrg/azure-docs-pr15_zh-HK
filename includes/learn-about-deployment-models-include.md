@@ -1,0 +1,1 @@
+> [AZURE.IMPORTANT] 使用 Azure 的资源之前，了解部署模型︰[资源管理器和经典](../articles/resource-manager-deployment-model.md)。

@@ -1,0 +1,1 @@
+如果本文没有解决您 Azure 问题，请访问 Azure 论坛[MSDN 和堆栈溢出](https://azure.microsoft.com/support/forums/)。 可以发布您的问题，在这些论坛上或[@AzureSupport在 Twitter 上](https://twitter.com/AzureSupport)。 另外，可以通过选择[Azure 支持](https://azure.microsoft.com/support/options/)网站上**获取支持**归档 Azure 支持请求。

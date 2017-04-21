@@ -1,0 +1,1 @@
+> [AZURE.IMPORTANT] Azure 具有用于创建和使用资源的两种不同的部署模型︰[资源管理器和经典](../articles/resource-manager-deployment-model.md)。  本文介绍如何使用经典的部署模型。 Microsoft 建议最新的部署使用资源管理器模型。

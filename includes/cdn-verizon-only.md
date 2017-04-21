@@ -1,0 +1,1 @@
+> [AZURE.IMPORTANT] 这项功能可与**Verizon 从 Azure CDN**产品 （标准和特优）。 它不支持**Akamai 从 Azure CDN**。  CDN 的功能比较，请参阅[Azure CDN 概述](cdn-overview.md#azure-cdn-features)。 
